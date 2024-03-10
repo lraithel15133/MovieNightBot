@@ -16,6 +16,7 @@ You will need to update these values in config.json:
 run 
 * npm install
 * node app
+
 to launch the app
 
 
