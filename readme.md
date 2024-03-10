@@ -24,19 +24,19 @@ Parenthesis signify optional parameter.
 Brackets signify required parameter.
 Colons signify default value.
 
-/list_all_movies (include_watched:false) (raw:false)
+⋅⋅* /list_all_movies (include_watched:false) (raw:false)
 Lists all movies in the database and exports a CSV.  include_watched will tell it if you want it to include movies that have been watched or not. 
 
-/give_random_movies (include_watched:false) (number_of_movies:10)
+⋅⋅* /give_random_movies (include_watched:false) (number_of_movies:10)
 Lists a given number of random movies from the movieDB. include_watched will tell it if you want it to include movies that have been watched or not. 
 
-/toggle_watched [title:]
+⋅⋅* /toggle_watched [title:]
 Toggle the 'watched' status of a movie between watched and not watched.
 
-/remove_movie [title:]
+⋅⋅* /remove_movie [title:]
 Remove a movie and its watched status from the DB.
 
-/set_channel
+⋅⋅* /set_channel
 Set the channel where the bot listens and gives info. 
 
 
