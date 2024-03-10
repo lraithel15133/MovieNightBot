@@ -1,9 +1,9 @@
-#MovieNightBot:
+# MovieNightBot
 
 A discord bot that monitors a channel for IMDB or RT links and adds them to a CSV file with default watched set to false. It also has a few slash commands to manage the data and export it for use.
 
 
-##Installation/Usage:
+## Installation/Usage:
 
 You will need to update these values in config.json:
 ```
@@ -19,7 +19,7 @@ node app
 to launch the app
 
 
-##Commands:
+## Commands:
 Parenthesis signify optional parameter.
 Brackets signify required parameter.
 Colons signify default value.
